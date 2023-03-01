@@ -1,0 +1,139 @@
+2023-02-15 09:34:37,292 DEBUG Loaded middleware 'LoggingMiddleware'
+2023-02-15 09:34:37,299 DEBUG Using proactor: IocpProactor
+2023-02-15 09:34:37,301 DEBUG Make request: "getMe" with data: "{}" and files "None"
+2023-02-15 09:34:37,805 DEBUG Response for getMe: [200] "'{"ok":true,"result":{"id":5848840303,"is_bot":true,"first_name":"testMoUbot","username":"few23rwq_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2023-02-15 09:34:37,805 INFO Bot: testMoUbot [@few23rwq_bot]
+2023-02-15 09:34:37,805 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
+2023-02-15 09:34:37,934 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message","edited_message","channel_post","edited_channel_post","inline_query","chosen_inline_result","callback_query","shipping_query","pre_checkout_query","poll","poll_answer","my_chat_member","chat_member","chat_join_request"]}}'"
+2023-02-15 09:34:37,934 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2023-02-15 09:34:38,059 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2023-02-15 09:34:38,059 WARNING Updates were skipped successfully.
+2023-02-15 09:34:38,059 INFO Start polling.
+2023-02-15 09:34:38,060 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
+2023-02-15 09:34:38,186 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message","edited_message","channel_post","edited_channel_post","inline_query","chosen_inline_result","callback_query","shipping_query","pre_checkout_query","poll","poll_answer","my_chat_member","chat_member","chat_join_request"]}}'"
+2023-02-15 09:34:38,186 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:34:58,311 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:34:58,414 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:35:18,542 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:35:18,653 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:35:38,806 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:35:38,908 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:35:59,040 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:35:59,156 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:36:19,286 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:36:19,399 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:36:39,523 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:36:39,629 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:36:59,757 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:36:59,872 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:37:20,001 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:37:20,107 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:37:40,231 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:37:40,344 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:37:57,283 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":176029248,\n"message":{"message_id":1025,"from":{"id":1643121103,"is_bot":false,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","language_code":"ru"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432375,"text":"# Configure the logging system\\nlogging.basicConfig(\\n    level=logging.DEBUG,\\n    format=\'%(asctime)s %(levelname)s %(message)s\',\\n    filename=\'example.log\',\\n    filemode=\'a\'\\n)"}}]}'"
+2023-02-15 09:37:57,284 DEBUG Received 1 updates.
+2023-02-15 09:37:57,284 DEBUG Received update [ID:176029248]
+2023-02-15 09:37:57,284 INFO Received message [ID:1025] in chat [private:1643121103]
+2023-02-15 09:37:57,301 DEBUG Unhandled message [ID:1025] in chat [private:1643121103]
+2023-02-15 09:37:57,301 INFO Process update [ID:176029248]: [success] (in 16 ms)
+2023-02-15 09:37:57,390 DEBUG Make request: "getUpdates" with data: "{'offset': 176029249, 'timeout': 20}" and files "None"
+2023-02-15 09:38:15,282 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":176029249,\n"message":{"message_id":1026,"from":{"id":1643121103,"is_bot":false,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","language_code":"ru"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432393,"text":"tele2_Admin says: \\u0440\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439 \\u0440 \\u0443 \\u0441 \\u043a\\u0438 \\u0439\\u0439 \\u0439"}}]}'"
+2023-02-15 09:38:15,282 DEBUG Received 1 updates.
+2023-02-15 09:38:15,283 DEBUG Received update [ID:176029249]
+2023-02-15 09:38:15,283 INFO Received message [ID:1026] in chat [private:1643121103]
+2023-02-15 09:38:15,284 DEBUG Unhandled message [ID:1026] in chat [private:1643121103]
+2023-02-15 09:38:15,284 INFO Process update [ID:176029249]: [success] (in 1 ms)
+2023-02-15 09:38:15,391 DEBUG Make request: "getUpdates" with data: "{'offset': 176029250, 'timeout': 20}" and files "None"
+2023-02-15 09:38:35,515 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:38:35,623 DEBUG Make request: "getUpdates" with data: "{'offset': 176029250, 'timeout': 20}" and files "None"
+2023-02-15 09:38:44,200 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":176029250,\n"message":{"message_id":1027,"from":{"id":1643121103,"is_bot":false,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","language_code":"ru"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432422,"text":"/w tele2_Admin \\u0440\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439 \\u0440 \\u0443 \\u0441 \\u043a\\u0438 \\u0439\\u0439 \\u0439","entities":[{"offset":0,"length":2,"type":"bot_command"}]}}]}'"
+2023-02-15 09:38:44,201 DEBUG Received 1 updates.
+2023-02-15 09:38:44,201 DEBUG Received update [ID:176029250]
+2023-02-15 09:38:44,201 INFO Received message [ID:1027] in chat [private:1643121103]
+2023-02-15 09:38:44,203 DEBUG Make request: "sendMessage" with data: "{'chat_id': 1643121103, 'text': 'tele2_Admin says: русский р у с ки йй й'}" and files "None"
+2023-02-15 09:38:44,320 DEBUG Make request: "getUpdates" with data: "{'offset': 176029251, 'timeout': 20}" and files "None"
+2023-02-15 09:38:44,361 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":1028,"from":{"id":5848840303,"is_bot":true,"first_name":"testMoUbot","username":"few23rwq_bot"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432422,"text":"tele2_Admin says: \\u0440\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439 \\u0440 \\u0443 \\u0441 \\u043a\\u0438 \\u0439\\u0439 \\u0439"}}'"
+2023-02-15 09:38:44,361 DEBUG Make request: "sendMessage" with data: "{'chat_id': 1643121103, 'text': 'Сообщение отправлено tele2_Admin.'}" and files "None"
+2023-02-15 09:38:44,508 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":1029,"from":{"id":5848840303,"is_bot":true,"first_name":"testMoUbot","username":"few23rwq_bot"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432422,"text":"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d\\u043e tele2_Admin."}}'"
+2023-02-15 09:38:44,509 DEBUG Unhandled message [ID:1027] in chat [private:1643121103]
+2023-02-15 09:38:44,509 INFO Process update [ID:176029250]: [success] (in 309 ms)
+2023-02-15 09:38:50,778 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":176029251,\n"message":{"message_id":1030,"from":{"id":1643121103,"is_bot":false,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","language_code":"ru"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432429,"text":"/w tele2_Admin \\u0440\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439 \\u0440 \\u0443 \\u0441 \\u043a\\u0438 \\u0439\\u0439 \\u0439","entities":[{"offset":0,"length":2,"type":"bot_command"}]}}]}'"
+2023-02-15 09:38:50,778 DEBUG Received 1 updates.
+2023-02-15 09:38:50,779 DEBUG Received update [ID:176029251]
+2023-02-15 09:38:50,779 INFO Received message [ID:1030] in chat [private:1643121103]
+2023-02-15 09:38:50,780 DEBUG Make request: "sendMessage" with data: "{'chat_id': 1643121103, 'text': 'tele2_Admin says: русский р у с ки йй й'}" and files "None"
+2023-02-15 09:38:50,879 DEBUG Make request: "getUpdates" with data: "{'offset': 176029252, 'timeout': 20}" and files "None"
+2023-02-15 09:38:50,940 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":1031,"from":{"id":5848840303,"is_bot":true,"first_name":"testMoUbot","username":"few23rwq_bot"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432429,"text":"tele2_Admin says: \\u0440\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439 \\u0440 \\u0443 \\u0441 \\u043a\\u0438 \\u0439\\u0439 \\u0439"}}'"
+2023-02-15 09:38:50,940 DEBUG Make request: "sendMessage" with data: "{'chat_id': 1643121103, 'text': 'Сообщение отправлено tele2_Admin.'}" and files "None"
+2023-02-15 09:38:51,132 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":1032,"from":{"id":5848840303,"is_bot":true,"first_name":"testMoUbot","username":"few23rwq_bot"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676432429,"text":"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u0435 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d\\u043e tele2_Admin."}}'"
+2023-02-15 09:38:51,133 DEBUG Unhandled message [ID:1030] in chat [private:1643121103]
+2023-02-15 09:38:51,133 INFO Process update [ID:176029251]: [success] (in 354 ms)
+2023-02-15 09:39:11,003 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:39:11,120 DEBUG Make request: "getUpdates" with data: "{'offset': 176029252, 'timeout': 20}" and files "None"
+2023-02-15 09:39:31,243 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:39:31,351 DEBUG Make request: "getUpdates" with data: "{'offset': 176029252, 'timeout': 20}" and files "None"
+2023-02-15 09:39:51,480 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:39:51,591 DEBUG Make request: "getUpdates" with data: "{'offset': 176029252, 'timeout': 20}" and files "None"
+2023-02-15 09:39:51,695 INFO Stop polling...
+2023-02-15 09:39:51,696 WARNING Goodbye!
+2023-02-15 09:55:33,934 DEBUG Loaded middleware 'LoggingMiddleware'
+2023-02-15 09:55:33,938 DEBUG Using proactor: IocpProactor
+2023-02-15 09:55:33,939 DEBUG Make request: "getMe" with data: "{}" and files "None"
+2023-02-15 09:55:34,322 DEBUG Response for getMe: [200] "'{"ok":true,"result":{"id":5848840303,"is_bot":true,"first_name":"testMoUbot","username":"few23rwq_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2023-02-15 09:55:34,322 INFO Bot: testMoUbot [@few23rwq_bot]
+2023-02-15 09:55:34,322 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
+2023-02-15 09:55:34,447 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message","edited_message","channel_post","edited_channel_post","inline_query","chosen_inline_result","callback_query","shipping_query","pre_checkout_query","poll","poll_answer","my_chat_member","chat_member","chat_join_request"]}}'"
+2023-02-15 09:55:34,448 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2023-02-15 09:55:34,571 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2023-02-15 09:55:34,571 WARNING Updates were skipped successfully.
+2023-02-15 09:55:34,571 INFO Start polling.
+2023-02-15 09:55:34,571 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
+2023-02-15 09:55:34,693 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message","edited_message","channel_post","edited_channel_post","inline_query","chosen_inline_result","callback_query","shipping_query","pre_checkout_query","poll","poll_answer","my_chat_member","chat_member","chat_join_request"]}}'"
+2023-02-15 09:55:34,694 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:55:54,818 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:55:54,920 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:56:15,046 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:56:15,156 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2023-02-15 09:56:24,950 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":176029252,\n"message":{"message_id":1033,"from":{"id":1643121103,"is_bot":false,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","language_code":"ru"},"chat":{"id":1643121103,"first_name":"\\u0446\\u0443","last_name":"\\u0443\\u0446","type":"private"},"date":1676433483,"text":"/check_stop","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}'"
+2023-02-15 09:56:24,951 DEBUG Received 1 updates.
+2023-02-15 09:56:24,951 DEBUG Received update [ID:176029252]
+2023-02-15 09:56:24,952 INFO Received message [ID:1033] in chat [private:1643121103]
+2023-02-15 09:56:24,952 DEBUG Unhandled message [ID:1033] in chat [private:1643121103]
+2023-02-15 09:56:24,953 INFO Process update [ID:176029252]: [failed] (in 2 ms)
+2023-02-15 09:56:24,953 ERROR Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\jejax\Desktop\Progects\aiogram game\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "C:\Users\jejax\Desktop\Progects\aiogram game\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\jejax\Desktop\Progects\aiogram game\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\jejax\Desktop\Progects\aiogram game\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\jejax\Desktop\Progects\aiogram game\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\jejax\Desktop\Progects\aiogram game\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\jejax\Desktop\Progects\aiogram game\game.py", line 59, in check_stop
+    with open('stopped_users.txt', 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'stopped_users.txt'
+2023-02-15 09:56:25,062 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:56:45,184 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:56:45,299 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:57:05,423 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:57:05,527 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:57:25,650 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:57:25,754 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:57:45,878 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:57:45,980 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:58:06,108 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:58:06,218 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:58:26,343 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:58:26,455 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:58:46,578 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:58:46,681 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:59:06,804 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:59:06,916 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:59:27,042 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2023-02-15 09:59:27,150 DEBUG Make request: "getUpdates" with data: "{'offset': 176029253, 'timeout': 20}" and files "None"
+2023-02-15 09:59:40,755 INFO Stop polling...
+2023-02-15 09:59:40,755 WARNING Goodbye!
